@@ -68,14 +68,16 @@ You may also supply an array of adapters and Waterline will map out the methods 
   - [MongoDB](https://github.com/balderdashy/sails-mongo) - *0.9+ compatible*
   - [Memory](https://github.com/balderdashy/sails-memory) - *0.9+ compatible*
   - [Disk](https://github.com/balderdashy/sails-disk) - *0.9+ compatible*
+  - [Microsoft SQL Server](https://github.com/cnect/sails-sqlserver-adapter)
   - [Redis](https://github.com/balderdashy/sails-redis)
   - [Riak](https://github.com/balderdashy/sails-riak)
   - [IRC](https://github.com/balderdashy/sails-irc)
   - [Twitter](https://github.com/balderdashy/sails-twitter)
   - [JSDom](https://github.com/mikermcneil/sails-jsdom)
   - [Neo4j](https://github.com/natgeo/sails-neo4j)
-  - [OrientDB](https://github.com/vjsrinath/sails-orientdb)
+  - [OrientDB](https://github.com/search?utf8=✓&q=sails+orientdb+OR+waterline+orientdb&type=Repositories&ref=searchresults)
   - [FoundationDB SQL Layer](https://github.com/FoundationDB/sql-layer-adapter-sails)
+  - [ArangoDB](https://github.com/rosmo/sails-arangodb)
 
 ## Collection
 
@@ -309,7 +311,7 @@ Each of the following basic methods are available by default on a Collection ins
 In addition you also have the following helper methods:
 
   - createEach
-  - findOrCreateEach
+  - findOrCreateEach (*DEPRECATED*)
   - findOrCreate
   - findOneLike
   - findLike
