@@ -28,7 +28,7 @@ describe('Waterline Collection', function() {
 
       it('should create an internal schema from the attributes', function() {
         assert(typeof User._schema.schema === 'object');
-        assert(Object.keys(User._schema.schema).length === 8); // account for auto created keys (pk, timestamps)
+        assert(Object.keys(User._schema.schema).length === 9); // account for auto created keys (pk, timestamps)
       });
 
       // TO-DO
@@ -40,7 +40,7 @@ describe('Waterline Collection', function() {
 
       it('should create an internal validation object from the attributes', function() {
         assert(typeof User._validator.validations === 'object');
-        assert(Object.keys(User._validator.validations).length === 5);
+        assert(Object.keys(User._validator.validations).length === 6);
       });
 
       // TO-DO
