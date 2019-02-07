@@ -18,11 +18,11 @@
     }
   ],
   "dependencies": {
-    "anchor": "~0.10.2",
+    "anchor": "~0.11.4",
     "async": "~0.9.0",
     "bluebird": "~2.9.15",
     "deep-diff": "~0.3.0",
-    "lodash": "~2.4.1",
+    "lodash": "~4.17.11",
     "switchback": "~1.1.3",
     "prompt": "~0.2.14",
     "waterline-criteria": "~0.11.1",
